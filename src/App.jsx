@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     //Layout route
     element: <AppLayout />,
     //we can use error here to replace whole app
-    // errorElement: <Error />,
+    errorElement: <Error />,
     children: [
       {
         path: "/",
